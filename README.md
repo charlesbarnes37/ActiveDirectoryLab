@@ -1,20 +1,20 @@
 <h1>UTILIZING ACTIVE DIRECTORY</h1>
 
 
-<h2>DESCRIPTION</h2>
+<h2>Description</h2>
 Active Directory is a core tool for System Administrators that need to manage Windows machines and it allows to manage users, groups, devices, and the policies that apply to all of them in a centralized fashion.  The examples below add users and groups, edit users memberships as well as create a new group policy object (GPO).
 <br />
 <br />
-<h2>LANGUAGES AND UTILITIES USED</h2>
+<h2>Languages and Utilities</h2>
 
 - <b>PowerShell</b> 
 - <b>Active Directory Administrative Center</b>
 
-<h2>ENVIROMENT USED</h2>
+<h2>Environment</h2>
 
 - <b>Windows 10</b>
 
-<h2>INSTALLING AND CONFIGURING ACTIVE DIRECTORY:</h2>
+<h2>Installing and Configuring Active Directory:</h2>
 First, you will need to install and configure Active Directory.  This is a complicated process, so we have provided PowerShell scripts to automate most of it.  Please follow the following instructions carefully.  After logging in, open Windows Powershell as an Administrator.  You can open Windows Powershell as an Administrator by opening the Start Menu, right-clicking the Windows Powershell icon and selecting More, then Run as Administrator: <br />
 <img src="https://i.imgur.com/GBZW5F4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
@@ -28,12 +28,12 @@ C:\Qwiklabs\ADSetup\configure_active_directory.ps1 <br />
 <img src="https://i.imgur.com/F7Hu53h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-<h2>MANAGING USERS AND GROUPS:</h2>
+<h2>Managing Users and Groups:</h2>
 Once the above setup is done, you are now ready to experiment with Active Directory.  Open the Active Directory Administrative Center (ADAC), you can find it by typing "active" into the Windows start menu: <br />
 <img src="https://i.imgur.com/NWiy3jH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-The Active Directory Administrative Center allows you to manage your Active Directory installation by configuring users, groups, computers, and more: <br />
+The ADAC allows you to manage your Active Directory installation by configuring users, groups, computers, and more: <br />
 <img src="https://i.imgur.com/EbynErI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -131,7 +131,7 @@ This will pop-up a small window where you need to enter the name of the group th
 With that, we've created users and groups and we've added and removed group memberships using Active Directory. Let's now look into how to manage group policies.
 <br />
 <br />
-<h2>MANAGING GROUP POLICIES:</h2>
+<h2>Managing Group Policies:</h2>
 To manage group policies, we need to use the Group Policy Management application. You can find it by typing group into the Windows start menu:
 <img src="https://i.imgur.com/gKoRSyH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
